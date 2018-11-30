@@ -679,9 +679,3 @@ if it's not present, don't show loader */
 	z-index: 9999;
 	background: url(../images/triangle.svg) center no-repeat #000;
 }
-
-.freetemplates { color: #5bbd50;
-	font-weight: 600;
-	}
-
-.freetemplates A { color:#FFF;}

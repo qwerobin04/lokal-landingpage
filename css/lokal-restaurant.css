@@ -80,7 +80,7 @@ a {
  display: block;
  clear: both;
 }
-h2, h3, h4, h5 {
+h1,h2, h3, h4, h5 {
  font-size: 24px;
  line-height: 125%;
  color: #2196f3;
@@ -174,41 +174,38 @@ header {
 .login a:hover {
  color: #2196f3;
 }
-h1.lokal-header{
-  font-family: 'Lobster Two', cursive;
-  color: #e24425;
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+
+.resto-container {
+  max-width: 1140px;
+  margin: 20px auto;
 }
-.header-cont {
-  margin-top: 20px;
+
+.resto-section {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
 }
-.par-aboutlokal p{
-  font-family: cursive;
-  text-align: justify;
+
+.resto-img img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
 }
-.par-vision p{
-  font-family: cursive;
-  text-align: center;
+
+.resto-img {
+  margin: 0 auto;
 }
-.par-mission p{
-  text-align: justify;
-  font-family: cursive;
+
+.resto-img img:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: .3s
 }
-.par-termsandconditions p{
-  text-align: justify;
-  font-family: cursive;
-  margin-bottom: 30px;
-}
-h3.lokal-subsection{
-  font-family: 'Lobster Two', cursive;
-  text-align:center;
-}
+
 footer.section8 {
-      padding: 30px;
-      background-color: #515151;
+    background-color: #515151;
+    padding: 30px;
 }
 
 .section8 {
